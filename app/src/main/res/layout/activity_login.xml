@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LoginActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="#c1ffffff" />
+
+    <EditText
+        android:id="@+id/mo_ph"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="#9abf7a2c"
+        android:ems="10"
+        android:hint="@string/mobile_no"
+        android:inputType="phone"
+        android:paddingStart="20dp"
+        android:textColorHint="@android:color/holo_purple" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:background="#adcd8029"
+        android:text="@string/login_button" />
+
+</RelativeLayout>

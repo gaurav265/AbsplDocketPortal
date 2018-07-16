@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Alliance Broadband</string>
+    <string name="Welcome_name">Alliance Broadband</string>
+    <string name="login_button">Login</string>
+    <string name="alliance_logo">alliance logo</string>
+    <string name="client_id">Client ID</string>
+    <string name="user_name">User Name</string>
+    <string name="ip_address">IP Address</string>
+    <string name="package_name">Package</string>
+    <string name="mobile_no">Mobile No</string>
+</resources>
